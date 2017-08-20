@@ -9,7 +9,9 @@ curl https://sdk.cloud.google.com | bash
 
 gcloud init
 
-2. Create dir and copy script to dir
+2. Create dir and copy script to dir. Do not forget to make script executable!
+
+mkdir -p /opt/gcp-snapshots/
 
 3. Add cronjob to run script for example daily at 3 AM (and also log results of script execution)
 
